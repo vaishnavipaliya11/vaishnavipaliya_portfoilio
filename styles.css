@@ -64,3 +64,29 @@ body{
 .hero .hero-heading .heading-highlighted{
   color:var(--dark-blue);
 }
+
+/* section part */
+.section h1{
+  text-align:center;
+}
+
+.section{
+  padding:2rem;
+}
+
+.ls{
+  background-color:var(--light-color);
+}
+
+/* container */
+.container{
+  padding-left:1rem;
+  padding-right:1rem;
+}
+.container-fluid{
+
+}
+.container-center{
+  max-width:600px;
+  margin:auto;
+}
