@@ -45,3 +45,22 @@ body{
   display:inline;
   padding:0rem,0.5rem;
 }
+
+/* header section */
+.hero{
+  padding:2rem;
+}
+.hero .hero-img{
+  max-width:450px;
+  display:block;
+  margin:auto;
+}
+
+.hero .hero-heading{
+  padding:1rem;
+  text-align:center;
+}
+
+.hero .hero-heading .heading-highlighted{
+  color:var(--dark-blue);
+}
