@@ -137,3 +137,9 @@ footer{
 .footer .ul{
   padding-inline-start: 0px
 }
+
+.blog-img{
+  max-width:250px;
+  display:block;
+  margin:auto;
+}
