@@ -143,3 +143,11 @@ footer{
   display:block;
   margin:auto;
 }
+ 
+ .section-blog{
+  display:block;
+  text-align:left;
+  padding :2rem;
+  background-color:var(--light-color);
+  border-radius:1rem,0rem
+} 
