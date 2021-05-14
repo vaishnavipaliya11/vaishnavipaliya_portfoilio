@@ -151,3 +151,7 @@ footer{
   background-color:var(--light-color);
   border-radius:1rem,0rem
 } 
+
+.spacing{
+  word-spacing:3rem;
+}
