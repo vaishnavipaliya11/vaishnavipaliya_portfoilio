@@ -22,6 +22,58 @@
         </ul>
         </div>
     </nav>
+   <section class="section ">
+       <div class="section-blog">
+        <div class= "container container-center">
+        <h2> JAVASCRIPT OBJECTS </h2>
+        <p> There are various types which it can be used. </p>
+        <div>
+        <h4>first scenario</h4>
+        <p> var name= "shaktiman"; </p>
+        <p> var age= "100"; </p>
+        <p> var strength= "1000"; </p>
+        here we are storing the values in different variable
+        which may cause problem further. As if we can't store 
+        values for 1000. it is quite complicated.
+        </div>
+
+        <div>
+        <h4> second scenario </h4>
+        <p> var shaktiman={ <br>
+            name:"shaktiman", <br>
+            age:100, <br>
+            strength: 1000, <br>
+            color:"blue" <br>
+        } </p>
+        <p>  We stored various properties  
+        in a single variable. Thus it is easier to access
+        properties present. This is also known as the 
+        <b> key : value pair.</b> </p>
+        <p> we can access properties by shaktiman.name, 
+        shaktiman.strength....  </p>
+        </div>
+
+
+        <div> 
+        <h4> <b> third scenario </b> </h4>
+        <p> If we want to store values of 50 people with 
+        same properties. So instead of creating 50 
+        variable we can store by creating a <b>function.</b>
+        we can pass properties to this function as an argument </p>
+        <p> function hero (name, age, strength, color)
+        { 
+            this.name:"name", <br>
+            this.age:"age", <br>
+            this.strength: "strength", <br>
+            this.color:"color" <br>
+        } </p>
+
+        <p> pass values:  </p>
+        <p> var shaktiman = new hero("shaktiman",10,1000,"blue")  </p>
+        <p> var ironman = new hero("ironman",100,2000,"black")  </p>
+        </div>
+        </div>
+       </div>  
 
 </body> 
 </html>
