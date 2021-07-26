@@ -132,6 +132,7 @@ footer{
   border-top-left-radius: 1rem;
   text-align:center;
   color:white;
+  margin-top: 2rem;
 }
 
 .footer .ul{
@@ -143,14 +144,14 @@ footer{
   display:block;
   margin:auto;
 }
- 
+
  .section-blog{
   display:block;
   text-align:left;
   padding :2rem;
   background-color:var(--light-color);
   border-radius:1rem,0rem
-} 
+}
 
 .spacing{
   word-spacing:3rem;
