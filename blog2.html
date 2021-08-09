@@ -6,10 +6,10 @@
     <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-     <nav class="navigation container"> 
+     <nav class="navigation container">
         <div class="nav-brand"> Vaishnavi Paliya </div>
          <div class="spacing">
-        <ul class="list-non-bullet nav-pills"> 
+        <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href ="/"> home</a>
             </li>
@@ -25,12 +25,12 @@
 
 <section class="section ">
        <div class="section-blog">
-        <div class= "container container-center"> 
+        <div class= "container container-center">
         <div>
         <h1> DOCUMENT OBJECT MODEL (DOM) </h1>
         <h3> selecting elements inside the dom using js. </h3>
         <p>we can select elements by various method </p>
-        <div> 
+        <div>
         <p> <b>1.By Tag Name </b> </p>
         <p> This property gives for all elements with the
         particular tag name given .</p>
@@ -38,44 +38,63 @@
         it will give all element with tag <b>li.</b>
         </div>
 
-        <div> 
+        <div>
         <p> <b>2.By Class Name </b> </p>
+        <p> This property gives all elements with the
+        particular class name.</p>
+        <p>
+          We can select the class of html file in the js by using
+          document.querySelector.<br>
+          for example, <br>
+          we have a class with name <b>para</b>. We can select this Class
+          para in our js file by using ".".<br>
+
+          var paragraph = document.querySelector(".para") <br>
+          here, the class is stored in the variable called paragraph.
+
+        </p>
+
+        </div>
+
+        <div>
+        <p> <b>2.By using Id </b> </p>
         <p> This property gives for all elements with the
-        particular class name given .</p>
-        <p> document.getElementsByClassName("btn")</p>
-        it will give all element of class <b>btn.</b>
-        </div>
+        particular id name given. Id is unique on every
+        page. <br>
+        We can select the element with particular id of html file in the js by using
+        document.querySelector.<br>
+        for example, <br>
+         We have id with name <b>input-one</b> and we can select this
+         by using "#".<br>
 
-        <div> 
-        <p> <b>2.By Id </b> </p>
-        <p> This property gives for all elements with the
-        particular id name given. Id is unique on every 
-        page.<u> Hence we use element keyword instead of
-        elements </u> </p>
-        <p> document.getElementById("emp_id")</p>
-        it will give all element of id <b>emp_id.</b>
-        </div>
-        </div>
+        var inputOne= document.querySelector("#input-one") <br>
+        here, the element with id input-one is stored in the
+        variable called inputOne.
+
+        </p>
 
         </div>
         </div>
-    </section> 
 
-     <footer class="footer container"> 
+        </div>
+        </div>
+    </section>
+
+     <footer class="footer container">
         <div class="footer-heading"> Social Media</div>
         <div class="spacing">
-        <ul class="social-links list-non-bullet"> 
-            <li class="list-item-inline"> 
-                <a class="link" href="https://www.instagram.com/vaishnavipaliya"> instagram </a> 
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://www.instagram.com/vaishnavipaliya"> instagram </a>
             </li>
-            <li class="list-item-inline"> 
-                <a class="link" href="https://github.com/vaishnavipaliya11"> github </a> 
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/vaishnavipaliya11"> github </a>
             </li>
-            <li class="list-item-inline"> 
-                <a class="link" href="https://www.linkedin.com/in/vaishnavi-paliya-b7767620a"> Linkden  </a> 
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/vaishnavi-paliya-b7767620a"> Linkden  </a>
             </li>
         </ul>
         </div>
-    </footer>  
+    </footer>
 </body>
 </html>
