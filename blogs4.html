@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset ="UTF-8">
+    <meta name ="viewport" content="width-device-width, initial  scale=1.0">
+    <title>blogs | vaishnavi</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+     <nav class="navigation container">
+        <div class="nav-brand"> Vaishnavi Paliya </div>
+         <div class="spacing">
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href ="/"> home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href ="projects.html"> project</a>
+            </li>
+            <li class="list-item-inline" >
+                 <a class="link link-active" href="blogs.html">Blogs</a>
+            </li>
+        </ul>
+         </div>
+    </nav>
+
+    <section class="section ">
+       <div class="section-blog">
+        <div class= "container container-center">
+        Hello friends!! this blog is about fetch() function.
+        I tried my best to put
+        my understanding into words.<br>
+        It is subdivided into various parts for better understanding.<br>
+        <b>what is fetch() ?</b> <br>
+        <b>how it is used ?</b> <br>
+        <b>example</b> <br>
+        <p>
+           <h3><b> what is fetch()?</b></h3>
+          In fetch() we just pass the url (https) to the function
+          and it gives you the data from the server. fetch() used to make the
+          request to the server and handel the response from the server.<br>
+
+          <b>syntax: <br></b>
+          var url= "https://abc.com" <br> <br>
+          fetch(url) <br>
+          .then(response =>response.json()) <br>
+          .then(json =>console.log(json)) <br>
+
+          <b>OR</b> <br>
+
+          fetch(url) <br>
+          .then(function responseHandler (response){ <br>
+            return response.json() <br>
+          }) <br>
+          .then(function jsonHandler(json){ <br>
+            return console.log(json) <br>
+          })<br>
+
+          <p>
+          Here, the "responseHandler","response", "jsonHandler","json"
+          are the function name and the parameter name .we can
+        name it anything but to maintain a standard we write in this form.
+        So to make it more convinent to read we write using the
+        arrow function.</p>
+        
+        </p>
+        </div>
+        </div>
+    </section>
+
+
+
+    </body>
+    </html>
