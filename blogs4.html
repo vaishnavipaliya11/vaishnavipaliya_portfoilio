@@ -29,10 +29,10 @@
         Hello friends!! this blog is about fetch() function.
         I tried my best to put
         my understanding into words.<br>
-        It is subdivided into various parts for better understanding.<br>
+        It is subdivided into various parts for better understanding.<br> <br>
         <b>what is fetch() ?</b> <br>
         <b>how it is used ?</b> <br>
-        <b>example</b> <br>
+        <b>what is promise?</b> <br>
         <p>
            <h3><b> what is fetch()?</b></h3>
           In fetch() we just pass the url (https) to the function
@@ -58,10 +58,37 @@
           <p>
           Here, the "responseHandler","response", "jsonHandler","json"
           are the function name and the parameter name .we can
-        name it anything but to maintain a standard we write in this form.
-        So to make it more convinent to read we write using the
-        arrow function.</p>
-        
+          name it anything but to maintain a standard we write in this form.
+          So to make it more convinent to read we write using the
+          arrow function.</p>
+
+          <h3><b> how it is used?</b></h3>
+          The fetch is used to make a request to the server and handel
+          the response from the server. <br>
+          now while we fetch you might get a bit confused in why we used
+          two function i.e two then. <br> <br>
+
+          First then ,<br>
+          .then(response=> response.json())<br>
+          This function takes the particular response from the server including
+          body, headers,status, clone, formData, constructor...etc.
+          what does "response.json()"do?? <br>
+          Convert that data in the json format and give that
+          data to second then. <br> <br>
+
+          Second then ,<br>
+          .then((json)=> console.log(json)) <br>
+          This function takes all the data in the from of json and
+          prints the data in the console. <br>
+
+          <h3><b> what is promise?</b></h3>
+          If i don't talk about promise it would be unfair.
+          promise are like the normal we use in real world.It takes the
+          url and give you and empty promise till when the response from
+          the server is not completed. After a while this promise can have
+          certain state.<br>
+
+          There are three types of state in promise:
         </p>
         </div>
         </div>
